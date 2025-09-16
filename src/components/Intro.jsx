@@ -9,7 +9,7 @@ import react from "../assets/react.svg";
 import css from "../assets/css.svg";
 import seta from "../assets/seta.svg";
 
-import background from "../assets/backgroundheader.svg";
+import background from "../assets/Backgroundheader.svg";
 
 const competencias = [
   { icon: github, descricao: "GitHub" },
