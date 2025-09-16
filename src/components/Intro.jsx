@@ -9,6 +9,8 @@ import react from "../assets/react.svg";
 import css from "../assets/css.svg";
 import seta from "../assets/seta.svg";
 
+import background from "../assets/backgroundheader.svg";
+
 const competencias = [
   { icon: github, descricao: "GitHub" },
   { icon: html, descricao: "HTML" },
@@ -22,7 +24,7 @@ function Intro() {
   return (
     <div
       className="flex justify-center w-screen bg-cover bg-no-repeat"
-      style={{ backgroundImage: "url(/src/assets/Background_Intro.svg)" }}
+      style={{ backgroundImage: `url(${background})` }}
     >
       <div className="mt-32 flex flex-col items-center justify-center w-[1040px]">
         {/* Foto de perfil */}
